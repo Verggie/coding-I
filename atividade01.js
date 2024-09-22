@@ -49,14 +49,14 @@ console.log(`A  entre ${num1} e ${num2} é igual a: ${area}`)
 
 / Desconto:
 
-const valor_produto = 500
-const p_desconto = 0.20
+const valor_produto = 450
+const p_desconto = 0.90
 const preco_final = valor_produto - (valor_produto * p_desconto)
 
 const n1 = valor_produto.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
 const n2 = preco_final.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
 
-console.log(`Oferta relâmpago! Aproveite ${p_desconto*100}% de desconto por tempo limitado! De ${n1} por ${n2}.`)
+console.log(`Super promoção! Aproveite ${p_desconto*100}% de desconto por tempo limitado! De ${n1} por ${n2}.`)
 
 // Imposto de renda:
 
@@ -70,8 +70,8 @@ console.log(`O imposto de renda é: ${IMP}.`)
 
 // Conversor de Moedas:
 
-const taxa_cambio = 5.51
-const valor_incial = 250
+const taxa_cambio = 6.70
+const valor_incial = 300
 const valor_final = valor_incial / taxa_cambio
 
 const n3 = valor_incial.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
