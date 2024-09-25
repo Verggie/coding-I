@@ -49,7 +49,7 @@ console.log(`A  entre ${num1} e ${num2} é igual a: ${area}`)
 
 / Desconto:
 
-const valor_produto = 450
+const valor_produto = 478
 const p_desconto = 0.90
 const preco_final = valor_produto - (valor_produto * p_desconto)
 
